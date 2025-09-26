@@ -43,6 +43,15 @@ int main() {
     }
  
   // Área para exibição dos dados da cidade
+	 printf("\n=== Cartas Cadastradas ===\n");
+    for (i = 0; i < TOTAL_CIDADES; i++) {
+        printf("\nCidade %s\n", codigos[i]);
+        printf("População: %d\n", populacoes[i]);
+        printf("Área: %.2f km²\n", areas[i]);
+        printf("PIB: %.2f bilhões\n", pibs[i]);
+        printf("Pontos turísticos: %d\n", pontosTuristicos[i]);
+    }
+
 
 return 0;
 } 
