@@ -41,7 +41,6 @@ int main() {
             c++;
         }
     }
- 
   // Área para exibição dos dados da cidade
 	 printf("\n=== Cartas Cadastradas ===\n");
     for (i = 0; i < TOTAL_CIDADES; i++) {
